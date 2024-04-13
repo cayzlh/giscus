@@ -73,8 +73,9 @@ export default function Giscus({ onDiscussionCreateRequest, onError }: IGiscusPr
   // const shouldShowBranding = !!data.discussion.url;
   const shouldShowBranding = false; // 不显示Brandingk
 
-  const shouldShowReplyCount =
-    !data.error && !data.isNotFound && !data.isLoading && data.totalReplyCount > 0;
+  // const shouldShowReplyCount =
+  //   !data.error && !data.isNotFound && !data.isLoading && data.totalReplyCount > 0;
+  const shouldShowReplyCount = false; // 不显示回复数
 
   const shouldShowCommentBox =
     (data.isRateLimited && !token) ||
