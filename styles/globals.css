@@ -58,8 +58,17 @@ a:hover {
   color: var(--color-fg-muted, var(--color-text-secondary));
 }
 
+@font-face {
+  font-family: 'ZFont';
+  src: url('https://gcore.jsdelivr.net/gh/cayzlh/psychic-potato@master/font/zfont/ZFonts.woff2');
+  format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .markdown .g-emoji {
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "ZFont", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 400;
 }
 
